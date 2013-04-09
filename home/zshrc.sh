@@ -9,7 +9,6 @@ autoload -U colors && colors
 # Load and execute the prompt theming system.
 fpath=("$pm/dotfiles/terminal" $fpath)
 autoload -Uz promptinit && promptinit
-prompt 'paulmillr'
 
 # Simple clear command.
 alias cl='clear'
