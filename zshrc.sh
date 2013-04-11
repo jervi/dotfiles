@@ -177,3 +177,6 @@ function rpfg() {
     | sed -e 's/<div class="highlight"><pre>/<div class="highlight"><pre><div class="line">/' \
     | sed -e 's/<div class="line"><\/pre><\/div>/<\/pre><\/div>/'
 }
+
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
