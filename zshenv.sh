@@ -1,3 +1,5 @@
+export LANG=en_US.UTF-8
+
 # Defines environment variables.
 privenv="$HOME/.private-env"
 [[ -f "$privenv" ]] && source $privenv
